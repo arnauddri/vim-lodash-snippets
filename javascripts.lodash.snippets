@@ -1,0 +1,39 @@
+# each
+snippet each
+	${1:collection}.forEach(function(${2:obj}) {
+		${0}
+	});
+# map
+snippet map
+	${1:collection}.map(function(${2:obj}) {
+		${0}
+	})
+# indexby
+snippet indexby
+	_.indexBy(${1:collection}, ${2:'${3:key}'});
+# groupby
+snippet groupby
+	_.groupBy(${1:collection}, ${2:'${3:key}'});
+# reduce
+snippet reduce
+	_.reduce(${1:collection}, function(${7:memo}, ${2:obj}${4:, ${3:key}}) {
+		${5:return $7 + $2;}
+	}, ${6:initial});
+# chain
+snippet chain
+	_.chain(${1:collection})
+# pluck
+snippet pluck
+	_.pluck(${1:collection})
+# max
+snippet max
+	_.max(${1:array});
+# min
+snippet min
+	_.min(${1:array});
+# filter
+snippet filter
+	_.filter(${1:array}, '${2:arg}');
+# uniq
+snippet uniq
+	_.uniq(${1:array}, ${4:, '${3:false}'});
