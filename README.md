@@ -64,3 +64,8 @@ Type 'uniq' and get:
 ```javascript
 	_.uniq(${1:array}, ${4:, '${3:false}'});
 ```
+## range
+Type 'range' and get:
+```javascript
+	_.range(${1:limit});
+```
