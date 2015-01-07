@@ -3,6 +3,10 @@ vim-lodash-snippets
 
 Vim snippets for most commonly used arrays/lodash/underscore functions
 
+## Install
+
+Place ```javascript.lodash.snippets``` in ```~/vim/snippets``` and that's it.
+
 ## each
 Type 'each' and get:
 ```javascript
