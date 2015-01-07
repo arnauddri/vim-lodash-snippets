@@ -1,5 +1,5 @@
-vim-lodash
-==========
+vim-lodash-snippets
+===================
 
 Vim snippets for most commonly used arrays/lodash/underscore functions
 
